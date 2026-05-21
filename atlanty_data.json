@@ -1,0 +1,2167 @@
+{
+  "meta": {
+    "title": "Атланты Северо-Запад — сегментация резидентов",
+    "subtitle": "Интерактивный дашборд v1.0 (прототип на ограниченной выборке)",
+    "period": "Сентябрь 2025 — Апрель 2026",
+    "total_residents": 80,
+    "generated": "2026-05-21"
+  },
+  "segments": {
+    "1": {
+      "name": "Среда / ближний круг",
+      "short": "Среда",
+      "color": "#8B7355"
+    },
+    "2": {
+      "name": "Менторство / передача опыта",
+      "short": "Менторство",
+      "color": "#5B8A72"
+    },
+    "3": {
+      "name": "Амбициозный рост",
+      "short": "Рост",
+      "color": "#C2410C"
+    },
+    "4": {
+      "name": "Кризис / пересборка",
+      "short": "Кризис",
+      "color": "#991B1B"
+    },
+    "5": {
+      "name": "Продажа / выход",
+      "short": "Выход",
+      "color": "#581C87"
+    },
+    "6": {
+      "name": "Новое направление в текущем бизнесе",
+      "short": "Доп. направление",
+      "color": "#1E40AF"
+    },
+    "7": {
+      "name": "Новый стартап / новая ниша",
+      "short": "Стартап",
+      "color": "#0E7490"
+    },
+    "8": {
+      "name": "Инвестиции / коллаборации",
+      "short": "Коллаборации",
+      "color": "#A16207"
+    }
+  },
+  "recommendations": {
+    "1": {
+      "formats": [
+        "Камерные ужины",
+        "Форум-группа",
+        "Путешествия / регаты",
+        "Культурные форматы",
+        "Семейные и локальные форматы",
+        "Личные знакомства с близким кругом"
+      ],
+      "watch_for": "Высокая занятость, ценит качество, не любит массовое",
+      "action": "Не загружать массовыми мероприятиями. Точечные приглашения на камерные форматы. Привлекать в роли «своего» в инвест-клубе или Кариатидах."
+    },
+    "2": {
+      "formats": [
+        "Менторская гостиная",
+        "Спикерские роли",
+        "Бадди-программы",
+        "Экспертные разборы",
+        "Наставничество молодых",
+        "Экспертные советы"
+      ],
+      "watch_for": "Готов отдавать опыт, ищет признание и смыслы",
+      "action": "Пригласить выступить, стать ментором, войти в экспертный совет. Подключить к разбору кейсов младших резидентов."
+    },
+    "3": {
+      "formats": [
+        "КОН по росту",
+        "Управленческие разборы",
+        "HR/продажи/финансы",
+        "Стратегические сессии",
+        "Подбор экспертов",
+        "Разбор масштабирования"
+      ],
+      "watch_for": "Хочет конкретный инструмент, не любит «воду»",
+      "action": "Дать прикладной трек по узкому запросу. Свести с резидентом, который уже прошёл эту стадию. Возможен платный апгрейд продукта."
+    },
+    "4": {
+      "formats": [
+        "Антикризисный КОН",
+        "Разбор операционки",
+        "Финансовая устойчивость",
+        "Поддержка собственника",
+        "Доверительный круг по сложным решениям"
+      ],
+      "watch_for": "Может скрывать кризис, осторожен с открытым общением",
+      "action": "Личный разговор с КМ. Точечная форум-группа. Не публичный разбор, а закрытый."
+    },
+    "5": {
+      "formats": [
+        "Закрытые консультации M&A",
+        "Юристы/оценщики",
+        "Доверительный круг собственников",
+        "Подготовка бизнеса к продаже",
+        "Передача роли"
+      ],
+      "watch_for": "Иногда уже эмоционально вышел из бизнеса, ищет следующую главу",
+      "action": "Подключить к инвест-клубу. Свести с теми, кто прошёл exit. Параллельно — формат «новая ниша»."
+    },
+    "6": {
+      "formats": [
+        "Лаборатория новых рынков",
+        "Карта каналов и партнёров",
+        "Пилот в новом регионе",
+        "Резиденты с доступом к рынку",
+        "Проверка нового продукта"
+      ],
+      "watch_for": "Текущий бизнес стабилен, ищет апсайд",
+      "action": "Свести с резидентами в смежных нишах. Бизнес-дейтинг с потенциальными партнёрами."
+    },
+    "7": {
+      "formats": [
+        "Стартап-спринт",
+        "Customer Development",
+        "MVP / unit-экономика",
+        "Тест спроса внутри клуба",
+        "Трек первых клиентов",
+        "Сбор команды и проверка гипотез"
+      ],
+      "watch_for": "Часто моложе среднего, нужны быстрые валидации",
+      "action": "Отдельный продуктовый трек по запуску. Бадди из сегмента 2. Не растворять среди роста."
+    },
+    "8": {
+      "formats": [
+        "Target Coffee",
+        "Инвест-клуб",
+        "B2B-интро",
+        "Коллаборации",
+        "Партнёрские ужины",
+        "Точечные рекомендации",
+        "Карта запросов и доступов между резидентами"
+      ],
+      "watch_for": "Активный нетворкер, может казаться поверхностным",
+      "action": "Управляемый matchmaking. Делать видимым через профиль/паспорт. Подключать к инвест-историям клуба."
+    }
+  },
+  "residents": [
+    {
+      "fio": "Остапенко Кирилл",
+      "id": 30175068,
+      "company": "Велодрайв",
+      "sphere": "Оптово-розничная торговля спортивными товарами",
+      "age": 43,
+      "revenue_mln": 1000,
+      "main_segment": 2,
+      "sub_segments": [
+        8,
+        3,
+        1
+      ],
+      "confidence": "high",
+      "attended": 0,
+      "registered": 2,
+      "attendance_rate": 0.0,
+      "avg_rating": 0,
+      "km": "Казакова Ольга",
+      "comment": "лидер→2, контакт→8",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Андреева Татьяна",
+      "id": 30187472,
+      "company": "ООО ТИМ",
+      "sphere": "Производство теплоизоляционных материалов",
+      "age": 48,
+      "revenue_mln": 500,
+      "main_segment": 2,
+      "sub_segments": [
+        4,
+        3,
+        8
+      ],
+      "confidence": "high",
+      "attended": 16,
+      "registered": 60,
+      "attendance_rate": 26.7,
+      "avg_rating": 4.2,
+      "km": "Зимацкая Яна",
+      "comment": "кризис→4, модератор→2",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Рогачев Сергей",
+      "id": 30181098,
+      "company": "ООО Арклес",
+      "sphere": "Оптовая и розничная торговля",
+      "age": 43,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        1,
+        2,
+        6
+      ],
+      "confidence": "high",
+      "attended": 4,
+      "registered": 18,
+      "attendance_rate": 22.2,
+      "avg_rating": 4.1,
+      "km": "Зимацкая Яна",
+      "comment": "продаж→3, единомышлен→1",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Макаров Филипп",
+      "id": 30601228,
+      "company": "ГЛОБЭКС Международный Логистический",
+      "sphere": "Международное экспедирование, логистика",
+      "age": 44,
+      "revenue_mln": 200,
+      "main_segment": 2,
+      "sub_segments": [
+        8,
+        3,
+        6
+      ],
+      "confidence": "high",
+      "attended": 4,
+      "registered": 11,
+      "attendance_rate": 36.4,
+      "avg_rating": 4.0,
+      "km": "Матвеева Надежда",
+      "comment": "рост→3, эксперт→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Алмазов Сергей",
+      "id": 30226972,
+      "company": "Делазия, DesAir, Деви, Неотрейд",
+      "sphere": "Логистика, поставка и доставка",
+      "age": 42,
+      "revenue_mln": 200,
+      "main_segment": 8,
+      "sub_segments": [
+        2,
+        3,
+        1
+      ],
+      "confidence": "high",
+      "attended": 21,
+      "registered": 58,
+      "attendance_rate": 36.2,
+      "avg_rating": 4.0,
+      "km": "Зимацкая Яна",
+      "comment": "бадди→2, продаж→3",
+      "risk": {
+        "level": "high",
+        "reason": "Очень активная регистрация, но низкая доходимость — выгорание/неподходящий контент"
+      }
+    },
+    {
+      "fio": "Христофорова Александра",
+      "id": 30601214,
+      "company": "ООО Петербургснаб",
+      "sphere": "Лизинг оборудования, спецтехники",
+      "age": 42,
+      "revenue_mln": 500,
+      "main_segment": 2,
+      "sub_segments": [
+        8,
+        3,
+        6
+      ],
+      "confidence": "high",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Зимацкая Яна",
+      "comment": "бадди→2, лидер→2",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Кузнецов Дмитрий",
+      "id": 30216318,
+      "company": "ООО НВК",
+      "sphere": "Финансовый аудит, бухгалтерский учет",
+      "age": 50,
+      "revenue_mln": 50,
+      "main_segment": 8,
+      "sub_segments": [
+        1,
+        4,
+        3
+      ],
+      "confidence": "high",
+      "attended": 2,
+      "registered": 3,
+      "attendance_rate": 66.7,
+      "avg_rating": 5.0,
+      "km": "Матвеева Надежда",
+      "comment": "оптимизац→4, контакт→8",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Мамаев Роман",
+      "id": 30142098,
+      "company": "ООО ТДФ",
+      "sphere": "Поставки комплектующих",
+      "age": 54,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        1,
+        2
+      ],
+      "confidence": "medium",
+      "attended": 10,
+      "registered": 12,
+      "attendance_rate": 83.3,
+      "avg_rating": 4.0,
+      "km": "Зимацкая Яна",
+      "comment": "опыт→2, оборот 300 млн+→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Васильев Сергей",
+      "id": 30601216,
+      "company": "ООО ТД Решение",
+      "sphere": "Поставки диспетчерской мебели",
+      "age": 45,
+      "revenue_mln": 200,
+      "main_segment": 3,
+      "sub_segments": [
+        8,
+        6,
+        1
+      ],
+      "confidence": "high",
+      "attended": 1,
+      "registered": 6,
+      "attendance_rate": 16.7,
+      "avg_rating": 5.0,
+      "km": "Матвеева Надежда",
+      "comment": "продаж→3, ранее…",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Горидько Андрей",
+      "id": 30304530,
+      "company": "Нептумар",
+      "sphere": "Международные перевозки, таможенное",
+      "age": 41,
+      "revenue_mln": 1000,
+      "main_segment": 8,
+      "sub_segments": [
+        1,
+        3,
+        6
+      ],
+      "confidence": "high",
+      "attended": 6,
+      "registered": 15,
+      "attendance_rate": 40.0,
+      "avg_rating": 3.7,
+      "km": "Казакова Ольга",
+      "comment": "инвест→8, инвестиц→8",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Смирнов Владислав",
+      "id": 30176282,
+      "company": "ООО Торговый дом Империал",
+      "sphere": "Оптовая торговля мясопродуктами",
+      "age": 46,
+      "revenue_mln": 500,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        1,
+        8
+      ],
+      "confidence": "high",
+      "attended": 5,
+      "registered": 14,
+      "attendance_rate": 35.7,
+      "avg_rating": 4.1,
+      "km": "Казакова Ольга",
+      "comment": "бадди→2, лидер→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Пранов Вадим",
+      "id": 30244058,
+      "company": "Магна",
+      "sphere": "Промышленная упаковка Альфард",
+      "age": 44,
+      "revenue_mln": 200,
+      "main_segment": 1,
+      "sub_segments": [
+        2,
+        8,
+        3
+      ],
+      "confidence": "high",
+      "attended": 3,
+      "registered": 12,
+      "attendance_rate": 25.0,
+      "avg_rating": 4.5,
+      "km": "Казакова Ольга",
+      "comment": "бадди→2, окруж→1",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Адмакин Максим",
+      "id": 30601224,
+      "company": "ООО Газэнергоэкспертиза",
+      "sphere": "Разработка и внедрение комплексных решений",
+      "age": 41,
+      "revenue_mln": 50,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        8
+      ],
+      "confidence": "high",
+      "attended": 8,
+      "registered": 18,
+      "attendance_rate": 44.4,
+      "avg_rating": 5.0,
+      "km": "Матвеева Надежда",
+      "comment": "бадди→2, масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Шкляр Дмитрий",
+      "id": 30601204,
+      "company": "ИП Шкляр",
+      "sphere": "IT (edtech, fintech, кибер, food tech)",
+      "age": 41,
+      "revenue_mln": 1000,
+      "main_segment": 8,
+      "sub_segments": [
+        3,
+        7,
+        6
+      ],
+      "confidence": "high",
+      "attended": 1,
+      "registered": 3,
+      "attendance_rate": 33.3,
+      "avg_rating": 5.0,
+      "km": "Казакова Ольга",
+      "comment": "инвест→8, инвестиц→8",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Бондаренко Владислав",
+      "id": 30318548,
+      "company": "наличные",
+      "sphere": "Продажа контрольно-измерительной техники",
+      "age": 53,
+      "revenue_mln": 1000,
+      "main_segment": 5,
+      "sub_segments": [
+        3,
+        8,
+        1
+      ],
+      "confidence": "low",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Зимацкая Яна",
+      "comment": "инвест→8, инвестиц→8",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Разманова Ирина",
+      "id": 30313192,
+      "company": "наличные",
+      "sphere": "Электроэнергетика - услуги",
+      "age": 47,
+      "revenue_mln": 1000,
+      "main_segment": 5,
+      "sub_segments": [
+        2,
+        3,
+        1
+      ],
+      "confidence": "low",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Иванова Кристина",
+      "comment": "кризис→4, передач→2",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Астанин Сергей",
+      "id": 30601210,
+      "company": "ИП Астанин",
+      "sphere": "Направление деятельности: комплексные",
+      "age": 39,
+      "revenue_mln": 500,
+      "main_segment": 8,
+      "sub_segments": [
+        3,
+        4,
+        6
+      ],
+      "confidence": "high",
+      "attended": 3,
+      "registered": 23,
+      "attendance_rate": 13.0,
+      "avg_rating": 3.3,
+      "km": "Зимацкая Яна",
+      "comment": "рост→3, операцион→3",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Горбачев Максим",
+      "id": 30601212,
+      "company": "ООО АДВ-Сервис",
+      "sphere": "IT - единая платформа для бизнеса",
+      "age": 36,
+      "revenue_mln": 1000,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        8,
+        7
+      ],
+      "confidence": "medium",
+      "attended": 7,
+      "registered": 16,
+      "attendance_rate": 43.8,
+      "avg_rating": 3.5,
+      "km": "Казакова Ольга",
+      "comment": "инвест→8, инвестиц→8",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Дмитриева Надежда",
+      "id": 30601208,
+      "company": "наличные",
+      "sphere": "Производство и продажа изделий на основе",
+      "age": 43,
+      "revenue_mln": 200,
+      "main_segment": 1,
+      "sub_segments": [
+        8,
+        3,
+        2
+      ],
+      "confidence": "medium",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Матвеева Надежда",
+      "comment": "инвест→8, инвестиц→8",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Напольских Александр",
+      "id": 30501864,
+      "company": "ООО Строительный инжиниринг",
+      "sphere": "Направление деятельности: комплексные",
+      "age": 42,
+      "revenue_mln": 200,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        8,
+        3
+      ],
+      "confidence": "high",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Зимацкая Яна",
+      "comment": "передач→2, рост→3",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Свиридов Виталий",
+      "id": 30355720,
+      "company": "ООО Планета Цветов",
+      "sphere": "Оптовые продажи срезанных цветов, растений",
+      "age": 57,
+      "revenue_mln": 1000,
+      "main_segment": 5,
+      "sub_segments": [
+        2,
+        3,
+        1
+      ],
+      "confidence": "low",
+      "attended": 10,
+      "registered": 17,
+      "attendance_rate": 58.8,
+      "avg_rating": 4.5,
+      "km": "Зимацкая Яна",
+      "comment": "модератор→2, бадди→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Фролова Полина",
+      "id": 30601222,
+      "company": "ИП Фролова",
+      "sphere": "Сеть студий ухода за лицом faceroom",
+      "age": 31,
+      "revenue_mln": 200,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        1,
+        6
+      ],
+      "confidence": "high",
+      "attended": 16,
+      "registered": 18,
+      "attendance_rate": 88.9,
+      "avg_rating": 4.5,
+      "km": "Зимацкая Яна",
+      "comment": "бадди→2, масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Иванов Алексей",
+      "id": 30421968,
+      "company": "ООО Солид Групп",
+      "sphere": "н/д",
+      "age": 41,
+      "revenue_mln": 50,
+      "main_segment": 3,
+      "sub_segments": [
+        8,
+        6
+      ],
+      "confidence": "high",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Зимацкая Яна",
+      "comment": "рост→3, клиентск→3",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Власов Андрей",
+      "id": 30601218,
+      "company": "Art of Tea",
+      "sphere": "Розничная торговля чаем и посудой",
+      "age": 40,
+      "revenue_mln": 50,
+      "main_segment": 1,
+      "sub_segments": [
+        2,
+        3,
+        8
+      ],
+      "confidence": "high",
+      "attended": 1,
+      "registered": 7,
+      "attendance_rate": 14.3,
+      "avg_rating": 5.0,
+      "km": "Зимацкая Яна",
+      "comment": "единомышлен→1, лидер→2",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Евдокимова Елена",
+      "id": 30133344,
+      "company": "Bossy Lady",
+      "sphere": "Розничная торговля обувью",
+      "age": 38,
+      "revenue_mln": 200,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        1,
+        8
+      ],
+      "confidence": "high",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Зимацкая Яна",
+      "comment": "ментор→2, операцион→3",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Кристаль Виталий",
+      "id": 31743270,
+      "company": "ООО Геовита",
+      "sphere": "Торговля, Оптовая торговля B2B, Производство",
+      "age": 42,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        8,
+        1,
+        6
+      ],
+      "confidence": "high",
+      "attended": 20,
+      "registered": 53,
+      "attendance_rate": 37.7,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "продаж→3, общение→1",
+      "risk": {
+        "level": "high",
+        "reason": "Очень активная регистрация, но низкая доходимость — выгорание/неподходящий контент"
+      }
+    },
+    {
+      "fio": "Акулин Максим",
+      "id": 31743292,
+      "company": "ООО Ориенталь",
+      "sphere": "Продажа грузовых автомобилей",
+      "age": 29,
+      "revenue_mln": 1000,
+      "main_segment": 6,
+      "sub_segments": [
+        3,
+        1,
+        8
+      ],
+      "confidence": "high",
+      "attended": 7,
+      "registered": 16,
+      "attendance_rate": 43.8,
+      "avg_rating": 4.5,
+      "km": "Казакова Ольга",
+      "comment": "рост→3, продаж→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Соловьев Григорий",
+      "id": 31787434,
+      "company": "ИП Соловьев Г. Б.",
+      "sphere": "Искусство, развлечения и досуг, Event-бизнес",
+      "age": 45,
+      "revenue_mln": 200,
+      "main_segment": 3,
+      "sub_segments": [
+        1,
+        8,
+        7
+      ],
+      "confidence": "high",
+      "attended": 21,
+      "registered": 36,
+      "attendance_rate": 58.3,
+      "avg_rating": 4.7,
+      "km": "Костина Юлия",
+      "comment": "ментор→2, бадди→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Иванов Владимир",
+      "id": 31802130,
+      "company": "ИП Иванов В. Д.",
+      "sphere": "Торговля, Оптовая торговля B2B, Спортивная",
+      "age": 35,
+      "revenue_mln": 50,
+      "main_segment": 1,
+      "sub_segments": [
+        3,
+        8,
+        7
+      ],
+      "confidence": "high",
+      "attended": 3,
+      "registered": 7,
+      "attendance_rate": 42.9,
+      "avg_rating": 4.0,
+      "km": "Матвеева Надежда",
+      "comment": "продаж→3, общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Баканов Максим",
+      "id": 31832592,
+      "company": "ООО АЛЬФА ВЭЙ",
+      "sphere": "Контейнерные перевозки, Таможенное",
+      "age": 40,
+      "revenue_mln": 500,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        8,
+        1
+      ],
+      "confidence": "high",
+      "attended": 21,
+      "registered": 89,
+      "attendance_rate": 23.6,
+      "avg_rating": 3.4,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3, эксперт→2",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Александрова Евгения",
+      "id": 31840150,
+      "company": "ООО Е РИЭЛТИ",
+      "sphere": "Строительство, архитектура, недвижимость",
+      "age": 47,
+      "revenue_mln": 50,
+      "main_segment": 6,
+      "sub_segments": [
+        8,
+        3,
+        2
+      ],
+      "confidence": "medium",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Матвеева Надежда",
+      "comment": "явный стартап-сигнал→7...",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Александрович Давид",
+      "id": 31884482,
+      "company": "ООО ФБ",
+      "sphere": "Музеи и выставки, Производство, Изделия",
+      "age": 54,
+      "revenue_mln": 50,
+      "main_segment": 3,
+      "sub_segments": [
+        8,
+        1,
+        4
+      ],
+      "confidence": "high",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Казакова Ольга",
+      "comment": "рост→3, продаж→3",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Сурудо Сергей",
+      "id": 31891694,
+      "company": "ООО Комфорт",
+      "sphere": "Строительство промышленных объектов",
+      "age": 37,
+      "revenue_mln": 200,
+      "main_segment": 3,
+      "sub_segments": [
+        8,
+        1,
+        2
+      ],
+      "confidence": "high",
+      "attended": 7,
+      "registered": 15,
+      "attendance_rate": 46.7,
+      "avg_rating": 4.0,
+      "km": "Матвеева Надежда",
+      "comment": "рост→3, продаж→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Михалев Андрей",
+      "id": 31914952,
+      "company": "ООО АМ-ЛОГИСТИКС",
+      "sphere": "Авто-перевозки, Управление цепочкой",
+      "age": 57,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        1,
+        8,
+        6
+      ],
+      "confidence": "high",
+      "attended": 20,
+      "registered": 29,
+      "attendance_rate": 69.0,
+      "avg_rating": 4.8,
+      "km": "Матвеева Надежда",
+      "comment": "рост→3, путешеств→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Миронова Кристина",
+      "id": 32167508,
+      "company": "ПАО Банк Санкт-Петербург",
+      "sphere": "Банковская деятельность",
+      "age": 46,
+      "revenue_mln": 1000,
+      "main_segment": 2,
+      "sub_segments": [
+        8,
+        1
+      ],
+      "confidence": "high",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Казакова Ольга",
+      "comment": "эксперт→2, экспертиз→3",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Мартынов Евгений",
+      "id": 31916590,
+      "company": "ЗАО СП.АРМ",
+      "sphere": "Разработка ИТ решений в сфере",
+      "age": 42,
+      "revenue_mln": 200,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        6
+      ],
+      "confidence": "high",
+      "attended": 2,
+      "registered": 4,
+      "attendance_rate": 50.0,
+      "avg_rating": 4.5,
+      "km": "Казакова Ольга",
+      "comment": "масштаб→3, эксперт→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Мусихин Данил",
+      "id": 31917510,
+      "company": "ООО НЛС Силикон",
+      "sphere": "Производство резинотехнических изделий",
+      "age": 33,
+      "revenue_mln": 500,
+      "main_segment": 6,
+      "sub_segments": [
+        3,
+        1,
+        8
+      ],
+      "confidence": "medium",
+      "attended": 15,
+      "registered": 24,
+      "attendance_rate": 62.5,
+      "avg_rating": 4.2,
+      "km": "Матвеева Надежда",
+      "comment": "рост→3, масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Тарасова Ольга",
+      "id": 31936876,
+      "company": "HR студия",
+      "sphere": "Executive search (подбор ТОП-менеджеров)",
+      "age": 43,
+      "revenue_mln": 50,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        7
+      ],
+      "confidence": "high",
+      "attended": 25,
+      "registered": 60,
+      "attendance_rate": 41.7,
+      "avg_rating": 4.5,
+      "km": "Матвеева Надежда",
+      "comment": "бадди→2, рост→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Понамарев Анатолий",
+      "id": 31943744,
+      "company": "ИП Понамарев А.И.",
+      "sphere": "Консалтинг и управленческие услуги",
+      "age": 43,
+      "revenue_mln": 200,
+      "main_segment": 4,
+      "sub_segments": [
+        3,
+        8,
+        7
+      ],
+      "confidence": "medium",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Зимацкая Яна",
+      "comment": "кризис→4, рост→3",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Торжков Алексей",
+      "id": 31970474,
+      "company": "Собственник компании Торжков А.Д.",
+      "sphere": "Логистические услуги",
+      "age": 41,
+      "revenue_mln": 50,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1
+      ],
+      "confidence": "medium",
+      "attended": 0,
+      "registered": 3,
+      "attendance_rate": 0.0,
+      "avg_rating": 0,
+      "km": "Казакова Ольга",
+      "comment": "ментор→2, продаж→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Левочкина Елена",
+      "id": 31996686,
+      "company": "ИП Левочкина Е.А.",
+      "sphere": "Очки, контактные линзы",
+      "age": 51,
+      "revenue_mln": 200,
+      "main_segment": 3,
+      "sub_segments": [
+        8,
+        1,
+        7
+      ],
+      "confidence": "high",
+      "attended": 11,
+      "registered": 27,
+      "attendance_rate": 40.7,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "продаж→3, клиентск→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Смоленцев Александр",
+      "id": 32023238,
+      "company": "Соучредитель компании Тетра Строй",
+      "sphere": "Строительство жилых и нежилых зданий",
+      "age": 45,
+      "revenue_mln": 500,
+      "main_segment": 1,
+      "sub_segments": [
+        2,
+        3,
+        6
+      ],
+      "confidence": "high",
+      "attended": 24,
+      "registered": 35,
+      "attendance_rate": 68.6,
+      "avg_rating": 4.5,
+      "km": "Зимацкая Яна",
+      "comment": "ментор→2, общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Тихонова Анна",
+      "id": 32022520,
+      "company": "Соучредитель компании",
+      "sphere": "Строительство жилых и нежилых зданий",
+      "age": 37,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        4,
+        1
+      ],
+      "confidence": "high",
+      "attended": 24,
+      "registered": 35,
+      "attendance_rate": 68.6,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "кризис→4, модератор→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Хамзин Альфред",
+      "id": 32023296,
+      "company": "ИП Хамзин А. Р.",
+      "sphere": "Международные платежи, Платёжный агент",
+      "age": 34,
+      "revenue_mln": 200,
+      "main_segment": 8,
+      "sub_segments": [
+        3,
+        1,
+        7
+      ],
+      "confidence": "high",
+      "attended": 6,
+      "registered": 40,
+      "attendance_rate": 15.0,
+      "avg_rating": 3.2,
+      "km": "Костина Юлия",
+      "comment": "инвест→8, инвестиц→8",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Гапотченко Андрей",
+      "id": 32036756,
+      "company": "Собственник компании Стандарт",
+      "sphere": "Метрология, проверка средств измерений",
+      "age": 42,
+      "revenue_mln": 50,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        7
+      ],
+      "confidence": "medium",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Костина Юлия",
+      "comment": "эксперт→2, экспертиз→3",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Гребенщиков Артём",
+      "id": 32036746,
+      "company": "Совладелец компании БОБО",
+      "sphere": "Сеть ресторанов",
+      "age": 40,
+      "revenue_mln": 200,
+      "main_segment": 1,
+      "sub_segments": [
+        3,
+        8,
+        7
+      ],
+      "confidence": "medium",
+      "attended": 0,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 0,
+      "km": "Костина Юлия",
+      "comment": "инвест→8, инвестиц→8",
+      "risk": {
+        "level": "medium",
+        "reason": "Нет активности за 6 мес"
+      }
+    },
+    {
+      "fio": "Власов Антон",
+      "id": 32249342316,
+      "company": "ИП Власов А.В.",
+      "sphere": "Бизнес-образование, Сообщество, Клуб",
+      "age": 30,
+      "revenue_mln": 50,
+      "main_segment": 6,
+      "sub_segments": [
+        3,
+        2,
+        7
+      ],
+      "confidence": "medium",
+      "attended": 1,
+      "registered": 0,
+      "attendance_rate": 0,
+      "avg_rating": 4.0,
+      "km": "Матвеева Надежда",
+      "comment": "ментор→2, рост→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Ситнова Ксения",
+      "id": 32054312,
+      "company": "ООО ЭЛМИ ЛОГИСТИКА",
+      "sphere": "Транспорт, логистика, международные",
+      "age": 44,
+      "revenue_mln": 500,
+      "main_segment": 6,
+      "sub_segments": [
+        3,
+        8,
+        2
+      ],
+      "confidence": "low",
+      "attended": 9,
+      "registered": 35,
+      "attendance_rate": 25.7,
+      "avg_rating": 3.5,
+      "km": "Костина Юлия",
+      "comment": "лидер→2, партнер→8",
+      "risk": {
+        "level": "high",
+        "reason": "Низкая конверсия регистрация→посещение"
+      }
+    },
+    {
+      "fio": "Красавина Мария",
+      "id": 32054154,
+      "company": "Совладелец компании Инкерман и Вижн",
+      "sphere": "Медицинские услуги по офтальмологии",
+      "age": 43,
+      "revenue_mln": 1000,
+      "main_segment": 2,
+      "sub_segments": [
+        8,
+        1
+      ],
+      "confidence": "high",
+      "attended": 14,
+      "registered": 18,
+      "attendance_rate": 77.8,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "продаж→3, эксперт→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Щипакин Андрей",
+      "id": 32054306,
+      "company": "ООО Интермет",
+      "sphere": "Металлообработка",
+      "age": 42,
+      "revenue_mln": 1000,
+      "main_segment": 3,
+      "sub_segments": [
+        1,
+        8,
+        7
+      ],
+      "confidence": "high",
+      "attended": 18,
+      "registered": 30,
+      "attendance_rate": 60.0,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "рост→3, масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Ярмошевич Евгений",
+      "id": 29818812,
+      "company": "н/д",
+      "sphere": "Бизнес/Производство",
+      "age": 50,
+      "revenue_mln": 200,
+      "main_segment": 1,
+      "sub_segments": [
+        4,
+        2
+      ],
+      "confidence": "low",
+      "attended": 4,
+      "registered": 8,
+      "attendance_rate": 50.0,
+      "avg_rating": 3.0,
+      "km": "Зимацкая Яна",
+      "comment": "",
+      "risk": {
+        "level": "medium",
+        "reason": "Низкие средние оценки"
+      }
+    },
+    {
+      "fio": "Цхай Надежда",
+      "id": 32214142,
+      "company": "н/д",
+      "sphere": "Бизнес",
+      "age": 38,
+      "revenue_mln": 50,
+      "main_segment": 8,
+      "sub_segments": [
+        3,
+        1,
+        4
+      ],
+      "confidence": "high",
+      "attended": 11,
+      "registered": 25,
+      "attendance_rate": 44.0,
+      "avg_rating": 3.8,
+      "km": "Матвеева Надежда",
+      "comment": "инвест→8, общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Колесов Дмитрий",
+      "id": 31608500,
+      "company": "н/д",
+      "sphere": "Производство/Бизнес",
+      "age": 39,
+      "revenue_mln": 100,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        8
+      ],
+      "confidence": "medium",
+      "attended": 6,
+      "registered": 18,
+      "attendance_rate": 33.3,
+      "avg_rating": 3.5,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Никитина Наталия",
+      "id": 32104448,
+      "company": "н/д",
+      "sphere": "Образование/Сервис",
+      "age": 41,
+      "revenue_mln": 200,
+      "main_segment": 2,
+      "sub_segments": [
+        8,
+        1,
+        3
+      ],
+      "confidence": "high",
+      "attended": 35,
+      "registered": 78,
+      "attendance_rate": 44.9,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "ментор→2, общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Хоружникова Ксения",
+      "id": 30635456,
+      "company": "н/д",
+      "sphere": "Сервис/Маркетинг",
+      "age": 42,
+      "revenue_mln": 300,
+      "main_segment": 8,
+      "sub_segments": [
+        3,
+        1
+      ],
+      "confidence": "high",
+      "attended": 24,
+      "registered": 60,
+      "attendance_rate": 40.0,
+      "avg_rating": 4.2,
+      "km": "Матвеева Надежда",
+      "comment": "инвест→8, лидер→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Скугоров Алексей",
+      "id": 30849338,
+      "company": "н/д",
+      "sphere": "Спорт/Образование",
+      "age": 38,
+      "revenue_mln": 100,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        1,
+        6
+      ],
+      "confidence": "high",
+      "attended": 25,
+      "registered": 62,
+      "attendance_rate": 40.3,
+      "avg_rating": 4.0,
+      "km": "Зимацкая Яна",
+      "comment": "общение→1, бадди→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Лаллав Инна",
+      "id": 32079430,
+      "company": "н/д",
+      "sphere": "Сервис/HR",
+      "age": 39,
+      "revenue_mln": 200,
+      "main_segment": 1,
+      "sub_segments": [
+        2,
+        3,
+        8
+      ],
+      "confidence": "high",
+      "attended": 22,
+      "registered": 50,
+      "attendance_rate": 44.0,
+      "avg_rating": 4.1,
+      "km": "Зимацкая Яна",
+      "comment": "ментор→2, общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Сухарев Юрий",
+      "id": 30868766,
+      "company": "н/д",
+      "sphere": "Строительство/Бизнес",
+      "age": 51,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1
+      ],
+      "confidence": "medium",
+      "attended": 11,
+      "registered": 24,
+      "attendance_rate": 45.8,
+      "avg_rating": 3.8,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Снятинская Евгения",
+      "id": 32137170,
+      "company": "н/д",
+      "sphere": "Маркетинг/Сервис",
+      "age": 37,
+      "revenue_mln": 100,
+      "main_segment": 1,
+      "sub_segments": [
+        4,
+        2,
+        3
+      ],
+      "confidence": "medium",
+      "attended": 18,
+      "registered": 35,
+      "attendance_rate": 51.4,
+      "avg_rating": 4.3,
+      "km": "Зимацкая Яна",
+      "comment": "общение→1, кризис→4",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Старченко Алексей",
+      "id": 31154372,
+      "company": "н/д",
+      "sphere": "Бизнес/Производство",
+      "age": 44,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        4
+      ],
+      "confidence": "high",
+      "attended": 16,
+      "registered": 38,
+      "attendance_rate": 42.1,
+      "avg_rating": 4.2,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Полина Левина",
+      "id": 31154732,
+      "company": "н/д",
+      "sphere": "Сервис",
+      "age": 33,
+      "revenue_mln": 200,
+      "main_segment": 8,
+      "sub_segments": [
+        3,
+        1,
+        2
+      ],
+      "confidence": "high",
+      "attended": 13,
+      "registered": 22,
+      "attendance_rate": 59.1,
+      "avg_rating": 4.5,
+      "km": "Казакова Ольга",
+      "comment": "инвест→8, бадди→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Винникова Анжелика",
+      "id": 30233108,
+      "company": "н/д",
+      "sphere": "Сервис/Строительство",
+      "age": 41,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        4
+      ],
+      "confidence": "high",
+      "attended": 18,
+      "registered": 35,
+      "attendance_rate": 51.4,
+      "avg_rating": 4.4,
+      "km": "Костина Юлия",
+      "comment": "рост→3, кризис→4",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Лукьяненко Сергей",
+      "id": 30749392,
+      "company": "н/д",
+      "sphere": "Сервис/Бизнес",
+      "age": 47,
+      "revenue_mln": 1000,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        8,
+        1
+      ],
+      "confidence": "high",
+      "attended": 12,
+      "registered": 32,
+      "attendance_rate": 37.5,
+      "avg_rating": 4.0,
+      "km": "Зимацкая Яна",
+      "comment": "ментор→2",
+      "risk": {
+        "level": "high",
+        "reason": "Очень активная регистрация, но низкая доходимость — выгорание/неподходящий контент"
+      }
+    },
+    {
+      "fio": "Кофтуняк Евгений",
+      "id": 32095581,
+      "company": "н/д",
+      "sphere": "Бизнес/Сервис",
+      "age": 39,
+      "revenue_mln": 300,
+      "main_segment": 6,
+      "sub_segments": [
+        2,
+        3,
+        1
+      ],
+      "confidence": "high",
+      "attended": 14,
+      "registered": 28,
+      "attendance_rate": 50.0,
+      "avg_rating": 4.5,
+      "km": "Зимацкая Яна",
+      "comment": "рост→3, ментор→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Гнас Алла",
+      "id": 32108018,
+      "company": "н/д",
+      "sphere": "Сервис",
+      "age": 43,
+      "revenue_mln": 100,
+      "main_segment": 1,
+      "sub_segments": [
+        2,
+        3
+      ],
+      "confidence": "medium",
+      "attended": 8,
+      "registered": 18,
+      "attendance_rate": 44.4,
+      "avg_rating": 4.0,
+      "km": "Зимацкая Яна",
+      "comment": "общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Голубева Анна",
+      "id": 30487800,
+      "company": "н/д",
+      "sphere": "Сервис",
+      "age": 38,
+      "revenue_mln": 100,
+      "main_segment": 1,
+      "sub_segments": [
+        8,
+        2
+      ],
+      "confidence": "medium",
+      "attended": 5,
+      "registered": 14,
+      "attendance_rate": 35.7,
+      "avg_rating": 3.5,
+      "km": "Матвеева Надежда",
+      "comment": "общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Чанкина Наталия",
+      "id": 29818734,
+      "company": "н/д",
+      "sphere": "Производство",
+      "age": 49,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        4
+      ],
+      "confidence": "high",
+      "attended": 12,
+      "registered": 26,
+      "attendance_rate": 46.2,
+      "avg_rating": 4.0,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Кащеев Денис",
+      "id": 31587246,
+      "company": "н/д",
+      "sphere": "Бизнес",
+      "age": 41,
+      "revenue_mln": 200,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        8,
+        7
+      ],
+      "confidence": "high",
+      "attended": 9,
+      "registered": 15,
+      "attendance_rate": 60.0,
+      "avg_rating": 4.5,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Полетаев Андрей",
+      "id": 29818502,
+      "company": "н/д",
+      "sphere": "Производство",
+      "age": 50,
+      "revenue_mln": 200,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        4
+      ],
+      "confidence": "medium",
+      "attended": 3,
+      "registered": 5,
+      "attendance_rate": 60.0,
+      "avg_rating": 4.5,
+      "km": "Матвеева Надежда",
+      "comment": "",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Лега Татьяна",
+      "id": 32215796,
+      "company": "н/д",
+      "sphere": "Бизнес/Кариатиды",
+      "age": 40,
+      "revenue_mln": 100,
+      "main_segment": 1,
+      "sub_segments": [
+        2,
+        3,
+        4
+      ],
+      "confidence": "high",
+      "attended": 11,
+      "registered": 20,
+      "attendance_rate": 55.0,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Гутерман Анатолий",
+      "id": 32125594,
+      "company": "н/д",
+      "sphere": "Бизнес",
+      "age": 44,
+      "revenue_mln": 500,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        8,
+        4
+      ],
+      "confidence": "medium",
+      "attended": 6,
+      "registered": 12,
+      "attendance_rate": 50.0,
+      "avg_rating": 4.0,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Жданов Михаил",
+      "id": 31080662,
+      "company": "н/д",
+      "sphere": "Бизнес",
+      "age": 45,
+      "revenue_mln": 300,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1
+      ],
+      "confidence": "low",
+      "attended": 4,
+      "registered": 12,
+      "attendance_rate": 33.3,
+      "avg_rating": 3.0,
+      "km": "Казакова Ольга",
+      "comment": "",
+      "risk": {
+        "level": "medium",
+        "reason": "Низкие средние оценки"
+      }
+    },
+    {
+      "fio": "Куценко Андрей",
+      "id": 32096392,
+      "company": "н/д",
+      "sphere": "Бизнес",
+      "age": 36,
+      "revenue_mln": 100,
+      "main_segment": 3,
+      "sub_segments": [
+        6,
+        2,
+        1
+      ],
+      "confidence": "medium",
+      "attended": 8,
+      "registered": 16,
+      "attendance_rate": 50.0,
+      "avg_rating": 4.2,
+      "km": "Казакова Ольга",
+      "comment": "рост→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Кащеев Денис",
+      "id": 31587246,
+      "company": "н/д",
+      "sphere": "Бизнес",
+      "age": 41,
+      "revenue_mln": 200,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        8,
+        7
+      ],
+      "confidence": "high",
+      "attended": 9,
+      "registered": 15,
+      "attendance_rate": 60.0,
+      "avg_rating": 4.5,
+      "km": "Матвеева Надежда",
+      "comment": "масштаб→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Молчанова Юлия",
+      "id": 32125704,
+      "company": "н/д",
+      "sphere": "Бизнес/Маркетинг",
+      "age": 35,
+      "revenue_mln": 100,
+      "main_segment": 1,
+      "sub_segments": [
+        2,
+        3,
+        8
+      ],
+      "confidence": "medium",
+      "attended": 14,
+      "registered": 25,
+      "attendance_rate": 56.0,
+      "avg_rating": 4.0,
+      "km": "Зимацкая Яна",
+      "comment": "общение→1",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Иргалиева Мария",
+      "id": 32246584,
+      "company": "н/д",
+      "sphere": "Бизнес",
+      "age": 33,
+      "revenue_mln": 100,
+      "main_segment": 2,
+      "sub_segments": [
+        3,
+        8,
+        1
+      ],
+      "confidence": "medium",
+      "attended": 3,
+      "registered": 7,
+      "attendance_rate": 42.9,
+      "avg_rating": 5.0,
+      "km": "Костина Юлия",
+      "comment": "ментор→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Малов Алексей",
+      "id": 32242666,
+      "company": "н/д",
+      "sphere": "Производство",
+      "age": 35,
+      "revenue_mln": 300,
+      "main_segment": 6,
+      "sub_segments": [
+        3,
+        2,
+        1
+      ],
+      "confidence": "high",
+      "attended": 8,
+      "registered": 14,
+      "attendance_rate": 57.1,
+      "avg_rating": 4.5,
+      "km": "Матвеева Надежда",
+      "comment": "рост→3",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Гапотченко Андрей",
+      "id": 32036756,
+      "company": "Собственник Стандарт",
+      "sphere": "Метрология",
+      "age": 42,
+      "revenue_mln": 50,
+      "main_segment": 3,
+      "sub_segments": [
+        2,
+        1,
+        7
+      ],
+      "confidence": "medium",
+      "attended": 7,
+      "registered": 18,
+      "attendance_rate": 38.9,
+      "avg_rating": 4.0,
+      "km": "Костина Юлия",
+      "comment": "эксперт→2",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Темерев Алексей",
+      "id": 32215670,
+      "company": "н/д",
+      "sphere": "Логистика",
+      "age": 41,
+      "revenue_mln": 300,
+      "main_segment": 8,
+      "sub_segments": [
+        3,
+        2,
+        1
+      ],
+      "confidence": "high",
+      "attended": 7,
+      "registered": 16,
+      "attendance_rate": 43.8,
+      "avg_rating": 4.5,
+      "km": "Костина Юлия",
+      "comment": "инвест→8",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    },
+    {
+      "fio": "Малиновский Артем",
+      "id": 32066364,
+      "company": "н/д",
+      "sphere": "Производство",
+      "age": 38,
+      "revenue_mln": 200,
+      "main_segment": 7,
+      "sub_segments": [
+        3,
+        2
+      ],
+      "confidence": "low",
+      "attended": 3,
+      "registered": 6,
+      "attendance_rate": 50.0,
+      "avg_rating": 4.0,
+      "km": "Зимацкая Яна",
+      "comment": "стартап→7",
+      "risk": {
+        "level": "low",
+        "reason": ""
+      }
+    }
+  ],
+  "distribution": {
+    "main_segment": {
+      "2": 17,
+      "3": 28,
+      "8": 10,
+      "1": 13,
+      "5": 3,
+      "6": 7,
+      "4": 1,
+      "7": 1
+    },
+    "all_segments": {
+      "2": 59,
+      "8": 52,
+      "3": 77,
+      "1": 62,
+      "4": 15,
+      "6": 22,
+      "7": 16,
+      "5": 3
+    },
+    "confidence": {
+      "high": 52,
+      "medium": 21,
+      "low": 7
+    },
+    "risk": {
+      "low": 53,
+      "high": 12,
+      "medium": 15
+    }
+  }
+}
